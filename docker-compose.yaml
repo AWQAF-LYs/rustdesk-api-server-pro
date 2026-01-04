@@ -6,8 +6,8 @@ services:
     environment:
       - "ADMIN_USER=admin" # optional
       - "ADMIN_PASS=Waqaf1234" # optional
-    ports:
-      - "8099:8080" # External:Internal
+    # ports:
+    #   - "8099:8080" # External:Internal
     volumes:
       - ./server.yaml:/app/server.yaml
       - ./server.db:/app/server.db
